@@ -58,10 +58,10 @@ On the start page, users must complete all required fields:
 		 - Expected Result: Economy class should be selected.
  
    - Condition : Apply to click to searchButton
-		 - Expected Result: User should be redirected to the result page.
+	 - Expected Result: User should be redirected to the result page.
     
     - Condition: Apply to click to filter Icon
-              	 - Expected Result: All the filters related to the available flights should be available.
+       - Expected Result: All the filters related to the available flights should be available.
 
 # Automated Test Scenarios
 
