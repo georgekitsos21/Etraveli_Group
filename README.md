@@ -26,15 +26,6 @@ On the start page, users must complete all required fields:
 4. Download the WebDriver executable for your browser and add it to your system's PATH. Alternatively, specify its location in the BaseTests class
     
 
-## By pressing the Search Flights button, a backend call (GraphQL API) displays all available flights matching the search criteria. The results page displays the Filter By button on the upper right corner. Clicking this button reveals multiple filters:
-
--	Number of stops
--	Price
--	Airlines
--	Departure/Arrival time
--	Travel time
-
-
 ## Test Details
 
 # Test Conditions, Test Cases, and Expected Results
