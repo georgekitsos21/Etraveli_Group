@@ -81,5 +81,5 @@ The project is organized into the following packages and classes:
 ## Troubleshooting
 
 - Ensure WebDriver is in your PATH or correctly specified.
-- Confirm the website (https://demoqa.com/books) is accessible.
+- Confirm the website (https://www.flightnetwork.com/) is accessible.
 - Check Maven dependencies with `mvn clean install`.
