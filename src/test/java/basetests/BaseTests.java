@@ -23,7 +23,7 @@ public class BaseTests {
     protected ResultPage resultPage;
 
 
-    //Set Up the chromeDriver
+    //Set_Up the chromeDriver
     @BeforeClass
     public void setUp() {
         System.setProperty("webdriver.chrome.driver", "resources/chromedriver");
