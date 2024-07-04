@@ -54,7 +54,7 @@ public class HomePage {
 
     //Choose particular Date for Departure(i.e. 12 Of July)
     public void dateFromDeparture() {
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(12));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
         WebElement clickToDepartureCalendar = wait.until(ExpectedConditions.visibilityOfElementLocated(clickToDeparture));
         clickToDepartureCalendar.click();
         wait.until(ExpectedConditions.visibilityOfElementLocated(chooseDateFrom)).click();
@@ -64,7 +64,7 @@ public class HomePage {
 
     //Choose particular Date for Return(i.e. 14 Of July)
     public void dateToReturn() {
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         WebElement clickToReturnCalendar = wait.until(ExpectedConditions.visibilityOfElementLocated(clickToReturn));
         clickToReturnCalendar.click();
         wait.until(ExpectedConditions.visibilityOfElementLocated(chooseDateTo)).click();
