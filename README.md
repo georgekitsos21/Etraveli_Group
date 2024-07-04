@@ -13,6 +13,7 @@ On the start page, users must complete all required fields:
 -	To (destination)
 -	Departure and Return dates
 -	Number of passengers
+-	Choose the desiring class
 
 
 ## Setup Instructions
