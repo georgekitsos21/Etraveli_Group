@@ -61,8 +61,10 @@ The project is organized into the following packages and classes:
 # Pages
 -	HomePage: Interacts with the home page elements.
 -	ResultPage: Interacts with the results page elements and verifies the page URL.
-	-	basetests
-	-	BaseTests: Sets up and tears down the WebDriver, and takes screenshots after each test.
+
+# Tests
+- basetests
+	- BaseTests: Sets up and tears down the WebDriver, and takes screenshots after each test.
 
 
 ## Troubleshooting
