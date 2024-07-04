@@ -40,20 +40,28 @@ On the start page, users must complete all required fields:
 - Verify the Number of Stops Filter
     - Condition: Apply a From Destination (for example Athens)
     	- Expected Result: Athens, Greece should be selected.
-    - Condition: Apply a From Destination (for example Thessaloniki)
+       
+    - Condition: Apply a From Destination (for example Thessaloniki.
+      
     	- Expected Result: Thessaloniki, Greece should be selected.
-  - Condition: Apply to a Departure Date(for example 12 of July)
-  	- Expected Result: 12 Of July should be selected.
-  -	Condition: Apply to a Retrun Date (for example 14 of July)
-  	- Expected Result: 14 Of July should be selected.
-  -	Condition: Apply a filter to choose how many passengers (for example 1 adult)
-  	- Expected Result: One passenger should be selected.
-  -	Condition : Apply for a class(for example econonomy) 
-	 - Expected Result: Economy class should be selected.
-  -     Condition: Click to search button in order to see the available flight
-    	 - Expected Result: User should be redirected to the result page.
-  -     Condition: Click to filterby icon
-    	 - Expected Result: All the filters related to the available flights should be available.
+       
+    - Condition: Apply to a Departure Date(for example 12 of July)
+  		- Expected Result: 12 Of July should be selected.
+     
+     - Condition: Apply to a Return Date (for example 14 of July)
+  		- Expected Result: 14 Of July should be selected.
+  
+    - Condition: Apply a filter to choose how many passengers (for example 1 adult)
+  		- Expected Result: One passenger should be selected.
+ 
+    - Condition : Apply for a class(for example econonomy) 
+		 - Expected Result: Economy class should be selected.
+ 
+   - Condition : Apply to click to searchButton
+		 - Expected Result: User should be redirected to the result page.
+    
+    - Condition: Apply to click to filter Icon
+              	 - Expected Result: All the filters related to the available flights should be available.
 
 # Automated Test Scenarios
 
