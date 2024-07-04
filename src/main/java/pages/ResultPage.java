@@ -26,5 +26,4 @@ public class ResultPage {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         wait.until(ExpectedConditions.visibilityOfElementLocated(clickToFilter)).click();
     }
-
 }
