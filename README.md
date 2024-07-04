@@ -22,7 +22,7 @@ On the start page, users must complete all required fields:
 
 2. Mvn clean install and install maven dependencies, then reload the project.
 
-3. Configure WebDriver, System.setProperty("webdriver.chrome.driver", "resources/chromedriver");
+3. Configure WebDriver, System.setProperty("webdriver.chrome.driver", "resources/chromedriver"); or "resources/chromedriver.exe if you have a windows machine
 
 4. Download the WebDriver executable for your browser and add it to your system's PATH. Alternatively, specify its location in the BaseTests class
     
