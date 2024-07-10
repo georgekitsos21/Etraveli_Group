@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 public class HomePageTests extends BaseTests {
 
-    @Test
+    @Test(alwaysRun = true, description = "Run the test in order to verify that the filters are working properly")
     public void fullFillFormDestination(){
 
         homePage.chooseReturnOption();
