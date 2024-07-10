@@ -29,7 +29,6 @@ public class BaseTests {
         driver.get("https://www.flightnetwork.com/");
         homePage = new HomePage(driver);
         resultPage = new ResultPage(driver);
-
     }
 
     @AfterMethod
